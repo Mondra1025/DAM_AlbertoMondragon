@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">DAM_AlbertoMondragon</string>
+    <string name="CheckBoixPubli">Publicidad</string>
+    <string name="CheckBoxAmigo">Amigo</string>
+    <string name="CheckBoxInter">Internet</string>
+    <string name="CheckBoxRadio">Radio</string>
+    <string name="RadioButIngSis">Ingeniería de Sistemas</string>
+    <string name="RadioButtIngAmb">Ingeniería Ambiental</string>
+    <string name="RadioButtIngMeca">Ingeniería Mecánica</string>
+    <string name="RadioButtAdmin">Administración</string>
+    <string name="txtViewMedio">¿Por qué medio se enteró de la convocatoria?</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtViewCarrera">Carrera}</string>
+    <string name="txtViewCarrera1">Carrera</string>
+    <string name="txtViewFNac">Fecha de nacimiento</string>
+    <string name="txtViewClave">Clave</string>
+    <string name="txtViewCorreo">Correo Electronico</string>
+    <string name="txtViewAp">Apellidos</string>
+    <string name="txtViewNom">Nombres</string>
+    <string name="txtViewTit">Examen de Admisión 2021</string>
 </resources>

@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B024339C"
+    android:background="#BA001FFF"
     tools:context=".MainActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="414dp"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:background="#FFEB3B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Examen de Admision 2021"
+        android:text="@string/txtViewTit"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif"
         android:text="Apellidos"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -73,7 +74,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="35dp"
-        android:text="Correo Electronico"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtViewCorreo"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,7 +114,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="35dp"
-        android:text="Fecha de nacimiento"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtViewFNac"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +140,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="35dp"
-        android:text="Carrera"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtViewCarrera1"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -149,7 +153,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="35dp"
-        android:text="Clave"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtViewClave"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -160,8 +165,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="30dp"
-        android:text="Nombres"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtViewNom"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -178,28 +184,28 @@
             android:id="@+id/radioButton4"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Ingeniería de Sistemas"
+            android:text="@string/RadioButIngSis"
             android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Ingeniería Ambiental"
+            android:text="@string/RadioButtIngAmb"
             android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Ingeniería Mecánica"
+            android:text="@string/RadioButtIngMeca"
             android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Administración"
+            android:text="@string/RadioButtAdmin"
             android:textColor="@color/white" />
     </RadioGroup>
 
@@ -208,17 +214,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="125dp"
-        android:text="¿Por qué medio se enteró de la convocatoria?"
+        android:layout_marginTop="110dp"
+        android:text="@string/txtViewMedio"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="215dp"
         android:layout_height="120dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11">
 
@@ -226,37 +233,38 @@
             android:id="@+id/checkBox7"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Radio"
+            android:text="@string/CheckBoxRadio"
             android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/checkBox8"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Internet"
+            android:text="@string/CheckBoxInter"
             android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/checkBox9"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Amigo"
+            android:text="@string/CheckBoxAmigo"
             android:textColor="@color/white" />
 
         <CheckBox
             android:id="@+id/checkBox10"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:text="Publicidad"
+            android:text="@string/CheckBoixPubli"
             android:textColor="@color/white" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="666dp" />
+        android:layout_marginEnd="25dp"
+        android:text="@string/btnEnviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
